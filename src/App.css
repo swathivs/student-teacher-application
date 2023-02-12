@@ -1,38 +1,63 @@
-.App {
+.welcome {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trow{
+  display: flex;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.teachTable{
+  border: 1px solid black;
+  padding: 10px;
+  border-collapse: collapse;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.top{
+  margin-left:200px;
+  margin-bottom: -35px;
+}
+.topbtn{
+  margin-left: 940px;
+  margin-bottom: -30px;
+}
+Table{
+  margin: 30px;
+  border: none;
+  /* margin-right: 50px; */
+}
+.tableH{
+  /* display: flex; */
+  /* justify-content: space-around; */
+  margin-top: 20px;
+}
+.details{
+  margin-left: 50px;
+  margin-bottom: -30px;
+}
+.add-Stud{
+  margin-left: 990px;
+  margin-bottom: -30px;
+}
+.edit-student,
+.edit-user{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 700px;
+  padding: 30px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-user{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 700px;
+  padding: 30px;
+  gap: 10px;
 }
